@@ -12,7 +12,7 @@
   #wrapper {
     max-width: 960px;
     margin: 0 auto;
-    background-color: rgb(102,111,148)
+    background-color: rgb(237,237,237)
   }
 
   header {
@@ -65,7 +65,7 @@
     }
 
   nav li {
-      background-color: rgb(102,111,148);
+      background-color: rgb(237,237,237);
       display: inline-block;
       max-width: 400px;
       padding: 20px;
