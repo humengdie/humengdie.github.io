@@ -1,5 +1,4 @@
 
-
 @import url('https://fonts.googleapis.com/css?family=Abril+Fatface|Amiri|Roboto');
 
   @supports (display: grid) {
@@ -12,11 +11,15 @@
   #wrapper {
     max-width: 960px;
     margin: 0 auto;
-    background-color: rgb(237,237,237)
+    background-color: rgb(167,219,216)
+  }
+
+  body {
+    background-color: rgba(167,219,216);
   }
 
   header {
-    background-color: rgb(255,255,255);
+    background-color: rgb(167,219,216);
     font-family: 'Abril Fatface', 'Helvetica', cursive;
     position: relative;
     min-height: 170px;
@@ -25,6 +28,56 @@
   header h1 {
     font-size: 80px;
     margin: 0;
+    text-align: center;
+    background-color: rgb(167,219,216);
+    text-transform: uppercase;
+    padding-top: 120px;
+    padding-bottom: 80px;
+  }
+
+  #title:hover {
+    transform: scale(1.1);
+    z-index: 10;
+    transition: all 1s ease-in;
+  }
+
+  h2 span {
+    color: rgba(0,177,162)
+  }
+
+  #home h2 {
+    font-size: 40px;
+    margin: 0;
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+
+  #resume h1 {
+    font-size: 60px;
+    margin: 0;
+    text-align: center;
+    background-color: rgb(200,246,250);
+    text-transform: uppercase;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 2px solid rgb(50,48,48);
+  }
+
+  #contactpage h1 {
+    font-size: 50px;
+    margin: 0, auto;
+    text-align: center;
+    background-color: rgb(167,219,216);
+    text-transform: uppercase;
+    padding-top: 60px;
+    padding-bottom: 100px;
+  }
+
+  #contactpage {
+    background-image: url("../img/argentinanew.jpg");
+    background-attachment: fixed;
+    background-size: cover;
   }
 
   header .no-grid {
@@ -35,13 +88,13 @@
     margin: 0 auto;
   }
 
-  img {
+  /* img {
     width: 185px;
     position: absolute;
     top: 0;
     right: 0;
     border: 1px dotted rgb(206,164,166)
-  }
+  } */
 
   h2 {
     font-family: 'Amiri', 'Helvetica', serif;
@@ -59,31 +112,184 @@
 
   nav {
       font-family: 'Roboto', 'Helvetica', sans-serif;
-      background-color: rgb(255,255,255);
+      background-color: rgb(167,219,216);
       list-style-type: none;
       padding: 10px;
     }
 
   nav li {
-      background-color: rgb(237,237,237);
+      background-color: rgb(200,246,250);
       display: inline-block;
       max-width: 400px;
       padding: 20px;
-      margin: 10px 50px 1px 30px;
-      border: 2px solid rgb(51,48,48)
+      margin: 10px 50px 1px 40px;
+      font-size: 20px;
+      border: 2px solid rgb(50,48,48);
     }
 
-  main {
+  #resume main {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-row-gap: 30px;
-    border: 5px solid rgba(171,131,137);
+  }
+
+  #traveling {
+    overflow: fixed;
+  }
+
+  #travelingpage main {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-row-gap: 20px;
+    grid-column-gap: 20px;
+  }
+
+  #travelingpage h1 {
+    font-size: 50px;
+    margin: 0, auto;
+    text-align: center;
+    background-color: rgb(167,219,216);
+    text-transform: uppercase;
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+
+  main img {
+    max-width: 482px;
+  }
+
+  #traveling section {
+    border: 2px solid rgb(50,48,48);
+    width: 960px;
+    overflow: auto;
+}
+
+  #uruguaypic img {
+    float: left;
+    margin: 0, auto;
+  }
+
+  #uruguaypic p {
+    text-align: right;
+    text-align: center;
+    padding-top: 100px;
+  }
+
+  #cancunpic img {
+    float: right;
+    margin: 1, auto;
+  }
+
+  #cancunpic p {
+    text-align: left;
+    text-align: center;
+    padding-top: 140px;
+  }
+
+  #beijingpic img {
+    float: left;
+    margin: 0, auto;
+  }
+
+  #beijingpic p{
+    text-align: right;
+    text-align: center;
+    padding-top: 150px;
+  }
+
+  #contact {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-right: 10px;
+  }
+
+  #phone {
+    border: 2px solid rgb(50,48,48);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 40px;
+    margin-right: 20px;
+    background-color: rgba(167,219,216);
+  }
+
+  #email {
+    border: 2px solid rgb(50,48,48);
+    margin-left: 20px;
+    margin-right: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: rgba(167,219,216);
+  }
+
+  #linkedin {
+    border: 2px solid rgb(50,48,48);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 40px;
+    margin-right: 20px;
+    background-color: rgba(167,219,216);
+  }
+
+  #facebook {
+    border: 2px solid rgb(50,48,48);
+    margin-left: 20px;
+    margin-right: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: rgba(167,219,216);
+  }
+
+  #home main {
+    grid-template-columns: 1fr;
+    background-color: rgba(167,219,216);
+  }
+
+  #resume h2 {
+    text-align: center;
   }
 
   #experience {
     grid-row: 1 / span 2;
     grid-column: 2;
+    border: 2px solid rgb(50,48,48);
+    margin-top: 20px;
+    background-color: rgba(200,246,250);
   }
+
+  #education {
+    border: 2px solid rgb(50,48,48);
+    margin-right: 20px;
+    margin-top: 20px;
+    background-color: rgba(200,246,250);
+  }
+
+  #skill {
+    border: 2px solid rgb(50,48,48);
+    margin-right: 20px;
+    background-color: rgba(200,246,250);
+  }
+
+  #contact img {
+    width: 50px;
+    height: auto;
+}
+
+  #contact h2 {
+    text-align: center;
+ }
+
+  #contact p {
+    text-align: center;
+}
+
+  #copyright {
+    text-align: center;
+  }
+
+/*
+  #picture {
+    background-size: cover;
+  } */
 
   article {
     margin-bottom: 40px;
@@ -105,7 +311,12 @@
     color: rgb(255,205,198);
   }
 
+
+
+
   /*
     CSS grid scaffolding provided by Erin Brown.
     http://github.com/umiami-web-design/grid-templates
   */
+
+  /* <div>Icons made by <a href="https://www.flaticon.com/authors/zurb" title="Zurb">Zurb</a> from <a href="https://www.flaticon.com/" 			    title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" 			    title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div> */
